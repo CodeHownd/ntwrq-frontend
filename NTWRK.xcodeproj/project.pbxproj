@@ -7,12 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DC49DAA52336BE8300A71F43 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC49DAA42336BE8300A71F43 /* Alamofire.framework */; };
+		DC49DAA62336BE8300A71F43 /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DC49DAA42336BE8300A71F43 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DC49DAAA2337081D00A71F43 /* MainAppViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC49DAA92337081D00A71F43 /* MainAppViewController.swift */; };
+		DC49DAAC23398E5A00A71F43 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC49DAAB23398E5A00A71F43 /* ProfileViewController.swift */; };
+		DC49DAAE2339B34F00A71F43 /* FriendsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC49DAAD2339B34F00A71F43 /* FriendsListViewController.swift */; };
 		DC60AD4223342BDA0059C7E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC60AD4123342BDA0059C7E1 /* AppDelegate.swift */; };
 		DC60AD4423342BDA0059C7E1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC60AD4323342BDA0059C7E1 /* ViewController.swift */; };
 		DC60AD4723342BDA0059C7E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC60AD4523342BDA0059C7E1 /* Main.storyboard */; };
 		DC60AD4923342BDB0059C7E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC60AD4823342BDB0059C7E1 /* Assets.xcassets */; };
 		DC60AD4C23342BDB0059C7E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC60AD4A23342BDB0059C7E1 /* LaunchScreen.storyboard */; };
 		DC60AD5723342BDB0059C7E1 /* NTWRKTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC60AD5623342BDB0059C7E1 /* NTWRKTests.swift */; };
+		DC60AD62233433CB0059C7E1 /* DesignableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC60AD61233433CB0059C7E1 /* DesignableView.swift */; };
+		DC60AD64233451250059C7E1 /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC60AD63233451250059C7E1 /* UIViewController+Extensions.swift */; };
+		DC60AD662334731A0059C7E1 /* CreateAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC60AD65233473190059C7E1 /* CreateAccount.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,8 +33,26 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		DC49DAA72336BE8300A71F43 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				DC49DAA62336BE8300A71F43 /* Alamofire.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		DC60AD3E23342BDA0059C7E1 /* NTWRK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NTWRK.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC49DAA42336BE8300A71F43 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		DC49DAA92337081D00A71F43 /* MainAppViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainAppViewController.swift; sourceTree = "<group>"; };
+		DC49DAAB23398E5A00A71F43 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		DC49DAAD2339B34F00A71F43 /* FriendsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsListViewController.swift; sourceTree = "<group>"; };
+		DC60AD3E23342BDA0059C7E1 /* ntwrq.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ntwrq.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC60AD4123342BDA0059C7E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DC60AD4323342BDA0059C7E1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DC60AD4623342BDA0059C7E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -36,6 +62,9 @@
 		DC60AD5223342BDB0059C7E1 /* NTWRKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NTWRKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC60AD5623342BDB0059C7E1 /* NTWRKTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NTWRKTests.swift; sourceTree = "<group>"; };
 		DC60AD5823342BDB0059C7E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC60AD61233433CB0059C7E1 /* DesignableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignableView.swift; sourceTree = "<group>"; };
+		DC60AD63233451250059C7E1 /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extensions.swift"; sourceTree = "<group>"; };
+		DC60AD65233473190059C7E1 /* CreateAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccount.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC49DAA52336BE8300A71F43 /* Alamofire.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,19 +86,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DC49DAA32336BE8300A71F43 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DC49DAA42336BE8300A71F43 /* Alamofire.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		DC60AD3523342BDA0059C7E1 = {
 			isa = PBXGroup;
 			children = (
 				DC60AD4023342BDA0059C7E1 /* NTWRK */,
 				DC60AD5523342BDB0059C7E1 /* NTWRKTests */,
 				DC60AD3F23342BDA0059C7E1 /* Products */,
+				DC49DAA32336BE8300A71F43 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		DC60AD3F23342BDA0059C7E1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DC60AD3E23342BDA0059C7E1 /* NTWRK.app */,
+				DC60AD3E23342BDA0059C7E1 /* ntwrq.app */,
 				DC60AD5223342BDB0059C7E1 /* NTWRKTests.xctest */,
 			);
 			name = Products;
@@ -79,10 +118,16 @@
 			children = (
 				DC60AD4123342BDA0059C7E1 /* AppDelegate.swift */,
 				DC60AD4323342BDA0059C7E1 /* ViewController.swift */,
+				DC60AD65233473190059C7E1 /* CreateAccount.swift */,
+				DC49DAA92337081D00A71F43 /* MainAppViewController.swift */,
+				DC49DAAB23398E5A00A71F43 /* ProfileViewController.swift */,
+				DC49DAAD2339B34F00A71F43 /* FriendsListViewController.swift */,
 				DC60AD4523342BDA0059C7E1 /* Main.storyboard */,
 				DC60AD4823342BDB0059C7E1 /* Assets.xcassets */,
 				DC60AD4A23342BDB0059C7E1 /* LaunchScreen.storyboard */,
 				DC60AD4D23342BDB0059C7E1 /* Info.plist */,
+				DC60AD61233433CB0059C7E1 /* DesignableView.swift */,
+				DC60AD63233451250059C7E1 /* UIViewController+Extensions.swift */,
 			);
 			path = NTWRK;
 			sourceTree = "<group>";
@@ -106,6 +151,8 @@
 				DC60AD3A23342BDA0059C7E1 /* Sources */,
 				DC60AD3B23342BDA0059C7E1 /* Frameworks */,
 				DC60AD3C23342BDA0059C7E1 /* Resources */,
+				DC49DAA72336BE8300A71F43 /* Embed Frameworks */,
+				DC49DAA82336BE9700A71F43 /* Carthage Copy Frameworks */,
 			);
 			buildRules = (
 			);
@@ -113,7 +160,7 @@
 			);
 			name = NTWRK;
 			productName = NTWRK;
-			productReference = DC60AD3E23342BDA0059C7E1 /* NTWRK.app */;
+			productReference = DC60AD3E23342BDA0059C7E1 /* ntwrq.app */;
 			productType = "com.apple.product-type.application";
 		};
 		DC60AD5123342BDB0059C7E1 /* NTWRKTests */ = {
@@ -192,13 +239,41 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		DC49DAA82336BE9700A71F43 /* Carthage Copy Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework",
+			);
+			name = "Carthage Copy Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n/usr/local/bin/carthage copy-frameworks\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DC60AD3A23342BDA0059C7E1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC49DAAE2339B34F00A71F43 /* FriendsListViewController.swift in Sources */,
+				DC60AD64233451250059C7E1 /* UIViewController+Extensions.swift in Sources */,
+				DC49DAAA2337081D00A71F43 /* MainAppViewController.swift in Sources */,
 				DC60AD4423342BDA0059C7E1 /* ViewController.swift in Sources */,
+				DC60AD662334731A0059C7E1 /* CreateAccount.swift in Sources */,
+				DC49DAAC23398E5A00A71F43 /* ProfileViewController.swift in Sources */,
 				DC60AD4223342BDA0059C7E1 /* AppDelegate.swift in Sources */,
+				DC60AD62233433CB0059C7E1 /* DesignableView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -359,36 +434,48 @@
 		DC60AD5C23342BDB0059C7E1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = NtwrqAppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 9XRS6BVHY5;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = NTWRK/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = YashgurEnterprise.NTWRK;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = ntwrq;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		DC60AD5D23342BDB0059C7E1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = NtwrqAppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 9XRS6BVHY5;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = NTWRK/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = YashgurEnterprise.NTWRK;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = ntwrq;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
