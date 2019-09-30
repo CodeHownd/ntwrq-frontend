@@ -87,7 +87,7 @@ class MainAppViewController: UIViewController, AVCaptureMetadataOutputObjectsDel
         if metadataObjects != nil && metadataObjects.count != 0 {
             if let object = metadataObjects[0] as? AVMetadataMachineReadableCodeObject {
                 AudioServicesPlaySystemSound(SystemSoundID(kSystemSoundID_Vibrate))
-                let URL_USER_ADD_FRIEND = "http://ec2-3-83-143-79.compute-1.amazonaws.com/v0/addFriend.php"
+                let URL_USER_ADD_FRIEND = "https://ec2-3-83-143-79.compute-1.amazonaws.com/v0/addFriend.php"
                 
                 let parameters: Parameters=[
                     "new_friend":object.stringValue!,

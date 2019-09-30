@@ -11,7 +11,7 @@ import Alamofire
 
 class ViewController: UIViewController {
     
-    let URL_USER_LOGIN = "http://ec2-3-83-143-79.compute-1.amazonaws.com/v0/login.php"
+    let URL_USER_LOGIN = "https://ec2-3-83-143-79.compute-1.amazonaws.com/v0/login.php"
     
     let defaultValues = UserDefaults.standard
 

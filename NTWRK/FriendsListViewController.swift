@@ -15,7 +15,7 @@ class FriendsListViewController: UIViewController, UITableViewDelegate, UITableV
     
     let defaultValues = UserDefaults.standard
 
-    let URL_USER_ALLFRIENDS = "http://ec2-3-83-143-79.compute-1.amazonaws.com/v0/getAllFriends.php"
+    let URL_USER_ALLFRIENDS = "https://ec2-3-83-143-79.compute-1.amazonaws.com/v0/getAllFriends.php"
     
     var friend_array : [String] = []
 
