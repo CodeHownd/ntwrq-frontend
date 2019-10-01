@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C70E89F52343A8D200632217 /* CreateAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70E89F42343A8D200632217 /* CreateAccount.swift */; };
+		C7BA22A62343A3670057284A /* testLoginStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7BA22A52343A3670057284A /* testLoginStackView.swift */; };
 		DC49DAA52336BE8300A71F43 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC49DAA42336BE8300A71F43 /* Alamofire.framework */; };
 		DC49DAA62336BE8300A71F43 /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DC49DAA42336BE8300A71F43 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		DC49DAAA2337081D00A71F43 /* MainAppViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC49DAA92337081D00A71F43 /* MainAppViewController.swift */; };
@@ -20,7 +22,6 @@
 		DC60AD5723342BDB0059C7E1 /* NTWRKTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC60AD5623342BDB0059C7E1 /* NTWRKTests.swift */; };
 		DC60AD62233433CB0059C7E1 /* DesignableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC60AD61233433CB0059C7E1 /* DesignableView.swift */; };
 		DC60AD64233451250059C7E1 /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC60AD63233451250059C7E1 /* UIViewController+Extensions.swift */; };
-		DC60AD662334731A0059C7E1 /* CreateAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC60AD65233473190059C7E1 /* CreateAccount.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		C70E89F42343A8D200632217 /* CreateAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccount.swift; sourceTree = "<group>"; };
+		C7BA22A52343A3670057284A /* testLoginStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testLoginStackView.swift; sourceTree = "<group>"; };
 		DC49DAA42336BE8300A71F43 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
 		DC49DAA92337081D00A71F43 /* MainAppViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainAppViewController.swift; sourceTree = "<group>"; };
 		DC49DAAB23398E5A00A71F43 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
@@ -64,7 +67,6 @@
 		DC60AD5823342BDB0059C7E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DC60AD61233433CB0059C7E1 /* DesignableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignableView.swift; sourceTree = "<group>"; };
 		DC60AD63233451250059C7E1 /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extensions.swift"; sourceTree = "<group>"; };
-		DC60AD65233473190059C7E1 /* CreateAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccount.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,7 +120,6 @@
 			children = (
 				DC60AD4123342BDA0059C7E1 /* AppDelegate.swift */,
 				DC60AD4323342BDA0059C7E1 /* ViewController.swift */,
-				DC60AD65233473190059C7E1 /* CreateAccount.swift */,
 				DC49DAA92337081D00A71F43 /* MainAppViewController.swift */,
 				DC49DAAB23398E5A00A71F43 /* ProfileViewController.swift */,
 				DC49DAAD2339B34F00A71F43 /* FriendsListViewController.swift */,
@@ -128,6 +129,8 @@
 				DC60AD4D23342BDB0059C7E1 /* Info.plist */,
 				DC60AD61233433CB0059C7E1 /* DesignableView.swift */,
 				DC60AD63233451250059C7E1 /* UIViewController+Extensions.swift */,
+				C7BA22A52343A3670057284A /* testLoginStackView.swift */,
+				C70E89F42343A8D200632217 /* CreateAccount.swift */,
 			);
 			path = NTWRK;
 			sourceTree = "<group>";
@@ -270,9 +273,10 @@
 				DC60AD64233451250059C7E1 /* UIViewController+Extensions.swift in Sources */,
 				DC49DAAA2337081D00A71F43 /* MainAppViewController.swift in Sources */,
 				DC60AD4423342BDA0059C7E1 /* ViewController.swift in Sources */,
-				DC60AD662334731A0059C7E1 /* CreateAccount.swift in Sources */,
+				C7BA22A62343A3670057284A /* testLoginStackView.swift in Sources */,
 				DC49DAAC23398E5A00A71F43 /* ProfileViewController.swift in Sources */,
 				DC60AD4223342BDA0059C7E1 /* AppDelegate.swift in Sources */,
+				C70E89F52343A8D200632217 /* CreateAccount.swift in Sources */,
 				DC60AD62233433CB0059C7E1 /* DesignableView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
